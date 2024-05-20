@@ -1,1 +1,11 @@
-  7  51 325
+#!/bin/bash
+
+dir="$2"
+echo "$dir" #count
+#echo $dir #전부 다
+
+files=$(ls -l "$dir" | cut -c1 | grep -v "d" | wc -l)
+directory=$( ls -l "$dir" | cut -c1 | grep "d" | wc -l)
+
+#echo 현재 위치: "$dir"
+echo "파일 $files개, 폴더 $directory개입니다."

@@ -1,4 +1,4 @@
-python	Programming Python	2010	Lutz, Mark
+PYTHON	Programming Python	2010	Lutz, Mark
 snail	SSH, The Secure Shell	2005	Barrett, Daniel
 alpaca	Intermediate Perl	2012	Schwartz, Randal
 robin	MySQL High Availability	2014	Bell, Charles
